@@ -23,16 +23,19 @@ const Navbar = () => {
     return (
         <>
             <div className={styles.navbar}>
-                <h1>Little <span>PROJECTS</span></h1>
-
-                <div className={styles.icons}>
-                    <Link to="/">
-                        <span><HiHome /></span>
-                    </Link>
-                    
-                    <Link to="/profile">
-                        <span onClick={() => setprofileClicked(!profileClicked)}><BsFillPersonFill /></span>
-                    </Link>
+                <div className={styles.navbarTitle}>  
+                    <div className={styles.navbarName}>
+                        <h1>Little <span>PROJECTS</span></h1>
+                    </div>
+                    <div className={styles.icons}>
+                        <Link to="/">
+                            <span><HiHome /></span>
+                        </Link>
+                        
+                        <Link to="/profile">
+                            <span onClick={() => setprofileClicked(!profileClicked)}><BsFillPersonFill /></span>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className={styles.themeSwitch} onClick={() => setChecked(!checked)}>

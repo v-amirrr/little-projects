@@ -1,0 +1,111 @@
+.littleProject1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.littleProject1 button {
+    background: transparent;
+    overflow: hidden;
+    border: #333 3.5px solid;
+    cursor: pointer;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btnText {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0099ff48;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.btnIcon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: -6;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.btnIcon span {
+    font-size: 2em;
+    display: flex;
+    margin: auto;
+    position: relative;
+    right: 20%;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.littleProject1 button:hover .btnText {
+    transform: translate(-100%, 0);
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+}
+
+.littleProject1 button:hover .btnIcon {
+    opacity: 1;
+}
+
+.littleProject1 button:hover .btnIcon span {
+    right: 0;
+}
+
+.littleProject1 button:hover .btnIcon span:nth-child(1) {
+    transition-delay: .5s;
+}
+
+.littleProject1 button:hover .btnIcon span:nth-child(2) {
+    transition-delay: .3s;
+}
+
+.littleProject1 button:hover .btnIcon span:nth-child(3) {
+    transition-delay: .1s;
+}
+
+.littleProject1 button:hover .btnIcon span:nth-child(4) {
+    transition-delay: .1s;
+}
