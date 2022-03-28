@@ -1,3 +1,13 @@
+[data-theme="dark"]{
+    --background-color: #000000cc;
+    --Toggle-bgcolor: #fff;
+}
+
+[data-theme="light"]{
+    --background-color: #000000cc;
+    --Toggle-bgcolor: #fff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,5 +28,5 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--background-color);
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { HiSun, HiMoon, HiHome } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
@@ -9,6 +9,15 @@ const Navbar = () => {
 
     const [checked, setChecked] = useState(false);
     const [profileClicked, setprofileClicked] = useState(false);
+
+    useEffect(() => {
+        (() => {
+            checked ? 
+            document.documentElement.setAttribute("data-theme", "light")
+            :
+            document.documentElement.setAttribute("data-theme", "dark")
+        }) ();
+    }, [checked]);
 
     return (
         <>
@@ -21,7 +30,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={styles.themeSwitch} onClick={() => setChecked(!checked)}>
-                    <span className={checked ? styles.themeSwitchToggleLight : styles.themeSwitchToggleDark}>
+                    <span className={styles.themeSwitchToggle}>
                         <span className={checked ? styles.lightToggle : styles.darkToggle}>
                             <HiSun className={checked ? styles.iconLightActive : styles.iconLight} />
                             <HiMoon className={checked ? styles.iconDark : styles.iconDarkActive} />
