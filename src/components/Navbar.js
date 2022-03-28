@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { HiSun, HiMoon, HiHome } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
@@ -25,8 +26,13 @@ const Navbar = () => {
                 <h1>Little <span>PROJECTS</span></h1>
 
                 <div className={styles.icons}>
-                    <span><HiHome /></span>
-                    <span onClick={() => setprofileClicked(!profileClicked)}><BsFillPersonFill /></span>
+                    <Link to="/">
+                        <span><HiHome /></span>
+                    </Link>
+                    
+                    <Link to="/profile">
+                        <span onClick={() => setprofileClicked(!profileClicked)}><BsFillPersonFill /></span>
+                    </Link>
                 </div>
 
                 <div className={styles.themeSwitch} onClick={() => setChecked(!checked)}>

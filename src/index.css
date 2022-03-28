@@ -30,3 +30,7 @@ body {
     background-size: cover;
     background-color: var(--background-color);
 }
+
+:any-link {
+    color: #fff;
+}
