@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SiGithub, SiGmail, SiTelegram, SiWhatsapp} from "react-icons/si";
+import { SiGithub, SiGmail, SiTelegram, SiWhatsapp } from "react-icons/si";
 
 import styles from "./ProfilePage.module.css";
 
