@@ -11,7 +11,7 @@ const HomePage = () => {
                 <button disabled><Link to={""}>Project 6</Link></button>
                 <button><Link to={"/projects/2"}>Project 2</Link></button>
                 <button disabled><Link to={""}>Project 7</Link></button>
-                <button disabled><Link to={""}>Project 3</Link></button>
+                <button><Link to={"/projects/3"}>Project 3</Link></button>
                 <button disabled><Link to={""}>Project 8</Link></button>
                 <button disabled><Link to={""}>Project 4</Link></button>
                 <button disabled><Link to={""}>Project 9</Link></button>
