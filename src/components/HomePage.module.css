@@ -1,21 +1,15 @@
 .homePage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    margin: 2rem auto;
+    width: fit-content;
     padding: 1rem;
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
-    box-shadow: #6363634d 0px 2px 8px 0px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    border: solid 1px #ffffff17;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
     text-align: center;
     display: grid;
     justify-items: center;
@@ -26,11 +20,11 @@
 .homePage button {
     width: 8rem;
     height: 4rem;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     border: none;
     margin: 1rem 0;
     font-size: 1.5rem;
@@ -45,19 +39,14 @@
 
 .homePage button:hover {
     background-color: #0084ff2a;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 .homePage button:disabled {
     background-color: #1f1f1f;
     cursor: not-allowed;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

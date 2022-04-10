@@ -23,3 +23,10 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+// project 1 idea: https://www.instagram.com/p/CFNCLkFIJ0G/?utm_medium=copy_link
+// project 2 idea: https://www.instagram.com/p/CZCjqRrI_zt/?utm_source=ig_web_copy_link
+// project 3 idea: https://www.instagram.com/tv/CbkubF5Ictd/?utm_source=ig_web_copy_link
+// project 4 idea: https://www.instagram.com/p/CX6Vx6kvbz8/?utm_source=ig_web_copy_link
+// project 5 idea: 
