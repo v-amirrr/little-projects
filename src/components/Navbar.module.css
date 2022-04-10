@@ -1,13 +1,12 @@
 .navbar {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    position: relative;
     padding: .5rem;
     width: 100%;
     z-index: 5;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .navbar h1 {
@@ -25,7 +24,7 @@
     opacity: 0;
 }
 
-.backBtn {
+.backBtn, .backBtnOff {
     position: absolute;
     top: 50%;
     left: 1rem;
@@ -52,7 +51,8 @@
     -o-transform: translate(0, -50%);
 }
 
-.backBtn span, .backBtn i {
+.backBtn span, .backBtn i,
+.backBtnOff span, .backBtnOff i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
     -o-transition: all .3s;
 }
 
-.backBtn span {
+.backBtn span, .backBtnOff span {
     position: relative;
     left: -5rem;
     opacity: 0;
