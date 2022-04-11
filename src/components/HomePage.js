@@ -15,7 +15,7 @@ const HomePage = () => {
                 <button disabled><Link to={""}>Project 8</Link></button>
                 <button><Link to={"/projects/4"}>Project 4</Link></button>
                 <button disabled><Link to={""}>Project 9</Link></button>
-                <button disabled><Link to={""}>Project 5</Link></button>
+                <button><Link to={"/projects/5"}>Project 5</Link></button>
                 <button disabled><Link to={""}>Project 10</Link></button>
             </div>
         </>

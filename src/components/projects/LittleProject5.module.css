@@ -1,0 +1,53 @@
+.littleProject5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.navigation div {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5.5rem;
+    color: #484848;
+    border: solid 1px #dddddd;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.navigation div:hover {
+    color: #000;
+    animation: effect .5s forwards;
+    -webkit-animation: effect .5s forwards;
+}
+
+@keyframes effect {
+    0% {
+        clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    100% {
+        clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 0 100%);
+    }
+}
