@@ -1,0 +1,54 @@
+.littleProject6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.littleProject6 button {
+    background-color: #f95a37;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1.4rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.littleProject6 button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -10rem;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, .4), transparent);
+    transform: skew(-29deg);
+    -webkit-transform: skew(-29deg);
+    -moz-transform: skew(-29deg);
+    -ms-transform: skew(-29deg);
+    -o-transform: skew(-29deg);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transform: skew(-29deg);
+}
+
+.littleProject6 button:hover::before {
+    left: 10rem;
+}

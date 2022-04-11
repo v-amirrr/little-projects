@@ -6,6 +6,7 @@ import LittleProject2 from './projects/LittleProject2';
 import LittleProject3 from './projects/LittleProject3';
 import LittleProject4 from './projects/LittleProject4';
 import LittleProject5 from './projects/LittleProject5';
+import LittleProject6 from './projects/LittleProject6';
 
 const Projects = () => {
     const params = useParams();
@@ -17,6 +18,7 @@ const Projects = () => {
                 {params.id == 3 && <LittleProject3 />}
                 {params.id == 4 && <LittleProject4 />}
                 {params.id == 5 && <LittleProject5 />}
+                {params.id == 6 && <LittleProject6 />}
         </div>
     );
 };

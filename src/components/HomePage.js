@@ -8,7 +8,7 @@ const HomePage = () => {
         <>
             <div className={styles.homePage}>
                 <button><Link to={"/projects/1"}>Project 1</Link></button>
-                <button disabled><Link to={""}>Project 6</Link></button>
+                <button><Link to={"/projects/6"}>Project 6</Link></button>
                 <button><Link to={"/projects/2"}>Project 2</Link></button>
                 <button disabled><Link to={""}>Project 7</Link></button>
                 <button><Link to={"/projects/3"}>Project 3</Link></button>
