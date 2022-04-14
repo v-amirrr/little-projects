@@ -1,0 +1,109 @@
+.littleProject7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: .5rem;
+    width: 18rem;
+    font-size: 1.5rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.navigation:hover {
+    width: 24rem;
+}
+
+.navBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    margin: 1rem 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.navBtn:nth-child(1):hover .navBtnIcon {
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.navBtn:hover .navBtnIcon {
+    transform: translate(-4rem, 0);
+    -webkit-transform: translate(-4rem, 0);
+    -moz-transform: translate(-4rem, 0);
+    -ms-transform: translate(-4rem, 0);
+    -o-transform: translate(-4rem, 0);
+}
+
+.navBtn:hover .navBtnText {
+    opacity: 1;
+}
+
+.navBtnIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.navBtnText {
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.navBtn:nth-child(1) span {
+    transform: translate(3rem, 0);
+    -webkit-transform: translate(3rem, 0);
+    -moz-transform: translate(3rem, 0);
+    -ms-transform: translate(3rem, 0);
+    -o-transform: translate(3rem, 0);
+}
+
+.navBtn:nth-child(4) span {
+    transform: translate(-1rem, 0);
+    -webkit-transform: translate(-1rem, 0);
+    -moz-transform: translate(-1rem, 0);
+    -ms-transform: translate(-1rem, 0);
+    -o-transform: translate(-1rem, 0);
+}
